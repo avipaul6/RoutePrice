@@ -15,6 +15,9 @@ to change the routes, change `route_list.csv` in input folder. Please note the d
 #date format
 It is important to note that the date format for live pricing must be in `YYYY-MM-DD` format to work. Else you will get an error
 
+#output
+At present the output is in output folder. The location of the folder may change in the future. 
+
 #to do
 1. Enable running code from start.py
 2. Convert json to csv file for selected value
