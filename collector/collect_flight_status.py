@@ -21,36 +21,6 @@ def get_result_of_single_query (country, currency, locale, originplace, destinat
         inbounddate=inbounddate,
         adults=adults).parsed
 
-    # result = flights_cache_service.get_grid_prices_by_date(
-    #     market='UK',
-    #     currency=currency,
-    #     locale=locale,
-    #     originplace=originplace,
-    #     destinationplace=destinationplace,
-    #     outbounddate=outbounddate,
-    #     inbounddate=inbounddate).parsed
-
-
-    # result = flights_cache_service.get_cheapest_quotes(
-    # market='UK',
-    # currency='GBP',
-    # locale='en-GB',
-    # originplace='SIN-sky',
-    # destinationplace='KUL-sky',
-    # outbounddate='2017-09',
-    # inbounddate='2017-10').parsed
-
-    # result = flights_service.get_result(
-    #     errors='graceful',
-    #     country='AU',
-    #     currency='AUD',
-    #     locale='en-AU',
-    #     originplace='SIN-sky',
-    #     destinationplace='KUL-sky',
-    #     outbounddate='2016-09-14',
-    #     inbounddate='2016-09-15',
-    #     adults=1).parsed
-
     return result
 
 def prepare_route_list_batch(list_of_routes):
@@ -75,19 +45,19 @@ def prepare_route_list_batch(list_of_routes):
                                                    list_of_routes[3],
                                                    adults
                                                    )
-    print (result_from_route)
-    create_json_file(result_from_route)
+    create_json_file(result_from_route, list_of_routes[0], list_of_routes[1], list_of_routes[2], list_of_routes[3])
 
-def create_json_file(result):
+def create_json_file(result, originplace, destinationplace, outbounddate, inbounddate):
 
-        folder_location = 'collector/collection/'
+        folder_location = '../output/'
         if not os.path.exists(folder_location):
             os.makedirs(folder_location)
 
         try:
-            json_file_name = "SYD_LHR.json"
+            json_file_name = originplace[:3] + "-" + destinationplace[:3] + "-" + outbounddate + "-" + inbounddate + ".json"
             resultFile = open(os.path.join(folder_location, json_file_name).replace("\\", "/"), mode='w')
             json.dump(result, resultFile)
+            print ("json created for %s to %s" % (originplace, destinationplace))
             resultFile.flush()
             resultFile.close()
         except Exception as e:
