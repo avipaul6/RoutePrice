@@ -1,0 +1,71 @@
+id_db,Id,Code,Name,Type
+1,16692,SYD,Sydney Kingsford Smith,Airport
+2,13311,KUL,Kuala Lumpur International,Airport
+3,11109,DPS,Bali (Denpasar),Airport
+4,10041,BNE,Brisbane,Airport
+5,13981,MEL,Melbourne Tullamarine,Airport
+6,16292,SIN,Singapore Changi,Airport
+7,10485,CGK,Soekarno-Hatta,Airport
+8,10372,CBR,Canberra,Airport
+9,9260,ADL,Adelaide,Airport
+10,15283,PER,Perth,Airport
+11,16516,SRG,Semarang,Airport
+12,19461,LOP,Lombok International,Airport
+13,10653,CNS,Cairns,Airport
+14,14688,NKG,Nanking / Nanjing,Airport
+15,16253,SHA,Shanghai Hongqiao,Airport
+16,15641,PVG,Shanghai Pu Dong,Airport
+17,15277,PEK,Beijing Capital,Airport
+18,12147,HGH,Hangzhou,Airport
+19,12795,JOG,Yogyakarta,Airport
+20,9970,BKK,Bangkok Suvarnabhumi,Airport
+21,10342,CAN,Guangzhou,Airport
+22,17075,TPE,Taipei Taiwan Taoyuan,Airport
+23,12191,HKG,Hong Kong International,Airport
+24,11089,DOH,Hamad International,Airport
+25,12409,ICN,Seoul Incheon Int'l,Airport
+26,12234,HND,Tokyo Haneda,Airport
+27,14788,NRT,Tokyo Narita,Airport
+28,13068,KIX,Osaka Kansai International,Airport
+29,11130,DRW,Darwin,Airport
+30,11182,DXB,Dubai,Airport
+31,7484,SYD,Sydney,City
+32,4350,KUL,Kuala Lumpur,City
+33,2236,DPS,Bali (Denpasar),City
+34,1070,BNE,Brisbane,City
+35,4971,MEL,Melbourne,City
+36,7101,SIN,Singapore,City
+37,1543,JKT,Jakarta,City
+38,1413,CBR,Canberra,City
+39,328,ADL,Adelaide,City
+40,6164,PER,Perth,City
+41,7316,SRG,Semarang,City
+42,25349,LOP,Praya,City
+43,1755,CNS,Cairns,City
+44,1748,NKG,Nanking / Nanjing,City
+45,1861,SHA,Shanghai,City
+46,996,BJS,Beijing,City
+47,1570,HGH,Hangzhou,City
+48,3838,JOG,Yogyakarta,City
+49,1009,BKK,Bangkok,City
+50,1423,CAN,Guangzhou,City
+51,7834,TPE,Taipei,City
+52,3189,HKG,Hong Kong,City
+53,2214,DOH,Doha,City
+54,7001,SEL,Seoul,City
+55,7968,TYO,Tokyo,City
+56,5965,OSA,Osaka,City
+57,2257,DRW,Darwin,City
+58,2301,DXB,Dubai,City
+59,131,AU,Australia,Country
+60,35,MY,Malaysia,Country
+61,33,ID,Indonesia,Country
+62,15,SG,Singapore,Country
+63,165,CN,China,Country
+64,14,TH,Thailand,Country
+65,17,TW,Taiwan,Country
+66,36,HK,Hong Kong,Country
+67,41,QA,Qatar,Country
+68,173,KR,South Korea,Country
+69,178,JP,Japan,Country
+70,110,AE,United Arab Emirates,Country
